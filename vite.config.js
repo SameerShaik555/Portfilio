@@ -1,24 +1,31 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), vue()],
   build: {
     target: 'esnext',
-    outDir: 'dist', // Output directory for production builds
-    assetsDir: 'assets', // Directory for static assets
-    minify: 'terser', // Minify the output using Terser
-    sourcemap: true, // Generate source maps
+    outDir: 'dist',
+    assetsDir: 'assets',
+    minify: 'terser',
+    sourcemap: true,
     rollupOptions: {
-      // Externalize dependencies that shouldn't be bundled
       external: ['react', 'react-dom'],
+      output: {
+        // Update this line to resolve the issue
+        globals: {
+          react: 'React',
+          'react-dom': 'ReactDOM',
+        },
+      },
     },
   },
   optimizeDeps: {
-    include: ['react', 'react-dom'], // Specify dependencies to optimize/bundle
+    include: ['react', 'react-dom'],
   },
   server: {
-    port: 3000, // Port for development server
-    open: true, // Open the default browser when starting the development server
+    port: 3000,
+    open: true,
   },
 });
