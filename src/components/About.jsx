@@ -47,11 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Welcome to OZZY Marketing Agency, where innovation meets creativity in the realm of web design. We specialize in creating stunning, user-friendly websites tailored to reflect your brand's identity and engage your target audience. Our team of expert web designers and developers brings a blend of technical skill, artistic flair, and strategic thinking to every project, ensuring your online presence stands out in the digital landscape.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

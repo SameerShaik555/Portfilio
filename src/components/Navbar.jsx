@@ -44,8 +44,8 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Sameer &nbsp;
-            <span className='sm:block hidden'> | Personal Portfolio</span>
+            OZZY Marketing & IT Solutions&nbsp;
+            <span className='sm:block hidden'> AUSTRALIA</span>
           </p>
         </Link>
 
