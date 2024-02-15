@@ -1,7 +1,18 @@
 import { BrowserRouter } from "react-router-dom";
-
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
-
+import styled from "styled-components";
+import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+const Container = styled.div`
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  scrollbar-width: none;
+  color: white;
+  background-color: #242582;
+  &::-webkit-scrollbar{
+    display: none;
+  }
+`;
 const App = () => {
   return (
     <BrowserRouter>
@@ -14,7 +25,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />

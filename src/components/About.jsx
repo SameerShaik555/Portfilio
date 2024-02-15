@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Welcome to OZZY Marketing Agency, where innovation meets creativity in the realm of web design. We specialize in creating stunning, user-friendly websites tailored to reflect your brand's identity and engage your target audience. Our team of expert web designers and developers brings a blend of technical skill, artistic flair, and strategic thinking to every project, ensuring your online presence stands out in the digital landscape.
+        Welcome to OZZY Marketing Agency, where creativity meets strategy to drive your brand to new heights. At OZZY, we're not just about marketing; we're about crafting compelling narratives, building meaningful connections, and achieving your goals, one campaign at a time. With our team of innovative thinkers, strategic planners, and creative wizards, we're here to elevate your brand's presence, amplify your message, and leave a lasting impact on your audience. Let's embark on this journey together and unlock the full potential of your brand with OZZY Marketing Agency.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
