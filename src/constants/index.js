@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Social Media Marketing",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Shopify Development",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "AI Powered Solutions",
     icon: creator,
   },
 ];
@@ -125,39 +125,33 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
+    title: "Social Media Marketing",
     company_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "",
     points: [
-      "",
+      "Elevate your brand's presence with our social media marketing expertise. From crafting engaging content to strategic campaign management, we'll drive meaningful interactions and boost your online visibility. Maximize your reach, engage your audience, and achieve your marketing goals with our tailored solutions. Let's amplify your social media presence together!",
     ],
   },
   {
-    title: "Web Developer",
+    title: "Shopify Development",
     company_name: "Shopify",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Transform your online store with our Shopify development services. From customizing themes to optimizing for conversions, we ensure a seamless e-commerce experience that aligns with your brand and boosts sales. With us, capitalize on the booming e-commerce market and expand your reach effortlessly. Let's elevate your online presence together!",
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "AI-Powered Marketing Solutions",
     company_name: "Meta",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Harnessing the power of AI, we craft dynamic solutions tailored to your needs. Our innovative approach ensures personalized experiences, data-driven strategies, and unparalleled results. Experience the future of marketing with our AI-powered solutions. Let's revolutionize your business together!"
     ],
   },
 ];
