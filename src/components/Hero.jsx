@@ -136,7 +136,7 @@ const Hero = () => {
           </WhatWeDo>
           <Desc>
             From Your Imagination to Our Creation!
-            Empowering Your Goals, Together
+            Empowering Your Goals, Together Using A.I
           </Desc>
           <Button>Learn More</Button>
         </Left>
