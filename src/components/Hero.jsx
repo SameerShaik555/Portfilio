@@ -6,6 +6,7 @@ import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
 import Line from "../components/line.png";
 import MoonImage from "../assets/MOON123.png";
 
+
 const Section = styled.div`
   height: 100vh;
   scroll-snap-align: center;
