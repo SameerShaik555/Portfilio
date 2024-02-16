@@ -116,16 +116,12 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Web Application Development",
+    company_name: "",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    date: "",
+    points: [ "Unlock streamlined operations, enhanced user experiences, and unique online services with our custom web application development. From customer portals to booking systems and inventory management tools, we craft tailored solutions using cutting-edge web technologies. Expect scalable, secure, and responsive applications that add tangible value to your business and delight your customers. Let's revolutionize your online presence together!",
     ],
   },
   {
@@ -135,10 +131,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "",
     ],
   },
   {
