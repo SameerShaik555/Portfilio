@@ -1,12 +1,16 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
+import { meta } from "../assets";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+//template_x1dyb4f
+//service_rxsghby
+//ExvCZJnDt1HJa33_2
+//gfj83vDeAvl96X5OqIZPo
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -33,16 +37,17 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        
+        'service_rxsghby',
+        'template_42hjk5k',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "SAM",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "ezvendingservicesau@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'ExvCZJnDt1HJa33_2'
       )
       .then(
         () => {
