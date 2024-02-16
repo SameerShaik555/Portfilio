@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import styled from "styled-components";
-import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import { About, Contact, Experience, Hero, Navbar, Tech, StarsCanvas } from "./components";
 const Container = styled.div`
   height: 100vh;
   scroll-snap-type: y mandatory;
@@ -24,7 +24,7 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
-        <Works />
+        
         
         <div className='relative z-0'>
           <Contact />
