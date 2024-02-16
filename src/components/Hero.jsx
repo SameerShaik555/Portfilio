@@ -128,7 +128,7 @@ const Hero = () => {
         <Left>
           <Title>Imagine. Create. Solve.</Title>
           <WhatWeDo>
-            <Line src="./src/assets/line.png" />
+            <Line src="src/components/line.png" />
             <Subtitle>What we Do</Subtitle>
           </WhatWeDo>
           <Desc>
@@ -153,7 +153,7 @@ const Hero = () => {
               </Sphere>
             </Suspense>
           </Canvas>
-          <Img src="./src/assets/MOON123.png" />
+          <Img src="MOON123.png" />
         </Right>
       </Container>
     </Section>
