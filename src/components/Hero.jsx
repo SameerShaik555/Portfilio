@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Navbar from "./Navbar";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
-import Line from "../components/line.png";
+import Line from "../assets/line.png";
 import MoonImage from "../assets/MOON123.png";
 
 
