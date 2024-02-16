@@ -3,6 +3,8 @@ import styled from "styled-components";
 import Navbar from "./Navbar";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
+import Line from "../components/line.png";
+import MoonImage from "../assets/MOON123.png";
 
 const Section = styled.div`
   height: 100vh;
@@ -59,7 +61,7 @@ const WhatWeDo = styled.div`
   gap: 10px;
 `;
 
-const Line = styled.img`
+const LineImage = styled.img`
   height: 5px;
 `;
 
@@ -128,12 +130,12 @@ const Hero = () => {
         <Left>
           <Title>Imagine. Create. Solve.</Title>
           <WhatWeDo>
-            <Line src="src/components/line.png" />
+            <LineImage src={Line} />
             <Subtitle>What we Do</Subtitle>
           </WhatWeDo>
           <Desc>
-          From Your Imagination to Our Creation!
-          Empowering Your Goals, Together
+            From Your Imagination to Our Creation!
+            Empowering Your Goals, Together
           </Desc>
           <Button>Learn More</Button>
         </Left>
@@ -153,7 +155,7 @@ const Hero = () => {
               </Sphere>
             </Suspense>
           </Canvas>
-          <Img src="./src/assets/MOON123.png" />
+          <Img src={MoonImage} />
         </Right>
       </Container>
     </Section>
